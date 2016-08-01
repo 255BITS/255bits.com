@@ -63,7 +63,8 @@ module.exports = React.createClass({
                 </Link>
               </Span>
               <Span columns={8} last>
-                <a
+                <Link
+                  to={prefixLink('/open-source/')}
                   style={{
                     float: 'right',
                     color: colors.fg,
@@ -73,9 +74,9 @@ module.exports = React.createClass({
                   href="https://github.com/gatsbyjs/gatsby"
                 >
                   Open Source
-                </a>
+                </Link>
                 <Link
-                  to={prefixLink('/examples/')}
+                  to={prefixLink('/products/')}
                   style={{
                     background: examplesActive ? activeColors.bg : colors.bg,
                     color: examplesActive ? activeColors.fg : colors.fg,
@@ -92,7 +93,7 @@ module.exports = React.createClass({
                   Products
                 </Link>
                 <Link
-                  to={prefixLink('/docs/')}
+                  to={prefixLink('/articles/')}
                   style={{
                     background: docsActive ? activeColors.bg : colors.bg,
                     color: docsActive ? activeColors.fg : colors.fg,

@@ -7,8 +7,10 @@ import { config } from 'config'
 
 import typography from 'utils/typography'
 const { rhythm } = typography
+import _ from 'lodash'
 
-module.exports = React.createClass({
+module.exports = (prefix) => {
+return React.createClass({
   propTypes () {
     return {
       route: React.PropTypes.object,
@@ -22,13 +24,27 @@ module.exports = React.createClass({
   },
 
   render () {
-    const childPages = config.docPages.map((p) => {
-      const page = find(this.props.route.pages, (_p) => _p.path === p)
+    var childPages = this.props.route.pages;
+    childPages = _.reject(childPages, (x) => { 
+      console.log(x.requirePath, "--------", x.requirePath.match(prefix) == null)
+      return x.requirePath.match(prefix) == null;
+    });
+    childPages = _.sortBy(childPages, (page) => {
+      return page.data.date;
+    });
+    childPages = _.map(childPages, (page) => {
+      if(!page) {
+        return { 
+          title: "missing " + p,
+          path: "/404"
+        }
+      }
       return {
         title: page.data.title,
         path: page.path,
       }
-    })
+    });
+    console.log("CHILD PAGES", childPages);
     const docOptions = childPages.map((child) =>
       <option
         key={prefixLink(child.path)}
@@ -106,5 +122,6 @@ module.exports = React.createClass({
         </Breakpoint>
       </div>
     )
-  },
+  }
 })
+}
