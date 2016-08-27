@@ -21,8 +21,9 @@ module.exports = React.createClass({
     }
   },
   render () {
-    const docsActive = includes(this.props.location.pathname, '/docs/')
-    const examplesActive = includes(this.props.location.pathname, '/examples/')
+    const productsActive = includes(this.props.location.pathname, '/products/')
+    const articlesActive = includes(this.props.location.pathname, '/articles/')
+    const openSourceActive = includes(this.props.location.pathname, '/open-source/')
 
     return (
       <div>
@@ -69,7 +70,16 @@ module.exports = React.createClass({
                     float: 'right',
                     color: colors.fg,
                     textDecoration: 'none',
-                    marginLeft: rhythm(1/2),
+                    background: openSourceActive ? activeColors.bg : colors.bg,
+                    color: openSourceActive ? activeColors.fg : colors.fg,
+                    float: 'right',
+                    textDecoration: 'none',
+                    paddingLeft: rhythm(1/2),
+                    paddingRight: rhythm(1/2),
+                    paddingBottom: rhythm(3/4),
+                    marginBottom: rhythm(-1),
+                    paddingTop: rhythm(1),
+                    marginTop: rhythm(-1),
                   }}
                   href="https://github.com/gatsbyjs/gatsby"
                 >
@@ -78,8 +88,8 @@ module.exports = React.createClass({
                 <Link
                   to={prefixLink('/products/')}
                   style={{
-                    background: examplesActive ? activeColors.bg : colors.bg,
-                    color: examplesActive ? activeColors.fg : colors.fg,
+                    background: productsActive ? activeColors.bg : colors.bg,
+                    color: productsActive ? activeColors.fg : colors.fg,
                     float: 'right',
                     textDecoration: 'none',
                     paddingLeft: rhythm(1/2),
@@ -95,8 +105,8 @@ module.exports = React.createClass({
                 <Link
                   to={prefixLink('/articles/')}
                   style={{
-                    background: docsActive ? activeColors.bg : colors.bg,
-                    color: docsActive ? activeColors.fg : colors.fg,
+                    background: articlesActive ? activeColors.bg : colors.bg,
+                    color: articlesActive ? activeColors.fg : colors.fg,
                     float: 'right',
                     textDecoration: 'none',
                     paddingLeft: rhythm(1/2),
