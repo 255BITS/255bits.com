@@ -56,6 +56,8 @@ return React.createClass({
     )
     const docPages = childPages.map((child) => {
       const isActive = prefixLink(child.path) === this.props.location.pathname
+      const isShown = prefixLink(child.path).split("/").length > 3
+
       return (
         <li
           key={child.path}
@@ -69,7 +71,7 @@ return React.createClass({
               textDecoration: 'none',
             }}
           >
-            {isActive ? <strong>{child.title}</strong> : child.title}
+            {isShown ? (isActive ? <strong>{child.title}</strong> : child.title) : null}
           </Link>
         </li>
       )
