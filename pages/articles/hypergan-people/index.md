@@ -3,9 +3,9 @@ title: Generating 256x256 faces with a GAN
 date: 2016-08-30
 ---
 
-# The question
+# The dataset
 
-Given a dataset of people's faces, can you generate new people that are not in the original dataset?
+40k human female faces
 
 # Samples
 
@@ -19,7 +19,9 @@ Given a dataset of people's faces, can you generate new people that are not in t
 
 # What is this?
 
-None of these people are real.  We've created an infinite people generator at 256x256.  The people above are completely random.
+None of these people are real.  We've created a person generator at 256x256.
+
+We can now render a theoretically infinite number of unique people.
 
 
 # More detail
@@ -32,28 +34,32 @@ we want to be careful where we select from.
 
 Training GANs is notoriously difficult.  In order to train at 256 x 256 we utilize:
 
-* Improved GAN link
-* Hyperchamber, a service for training networks with hyperparameter search
+* Hyperchamber.io, a service for training networks with hyperparameter search
 * A custom Discriminator and Generator
 * Joint training of a variational encoder utilizing preproccessed image embeddings
-* Custom training methods
+* Custom GAN training technique
 * Nvidia Titan X
-* 1 week of training
+* ~ 1 week of training
 
 
 All of our code is open source(careful it's rough on the edges).  Our training data was custom built using dlib to identify
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
 on 40k human female faces.  A network currently converging will have 170k of mixed gender.
 
-
-Want to know more?  Sign up for the hyperchamber private alpha here:
-
+Want to know more?  Sign up for the hyperchamber.io private alpha here:
 
 # Links
 
-* Hyperchamber - sign up
-* [hypergan](/open-source/hypergan/) - The network trainer/runner.  Very alpha.
+* Hyperchamber - sign up for access
+* [hypergan](/open-source/hypergan/) - The network trainer/runner - very alpha
 
+# Thanks to
+
+* GAN paper
+* DCGAN paper
+* Adversarial inference
+* Ian's paper
+* Tensorflow
 
 # Credits
 
