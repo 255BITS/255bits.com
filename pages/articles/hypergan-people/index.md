@@ -36,13 +36,13 @@ Training GANs is notoriously difficult.  In order to train at 256 x 256 we utili
 
 * [Hyperchamber.io](/products/hyperchamber.io/), a service for training networks with hyperparameter search
 * A custom Discriminator and Generator
-* Joint training of a variational encoder utilizing preprocessed image embeddings
+* A custom Vae(variational encoder), jointly trained
 * Custom GAN training technique
 * Nvidia Titan X
 * ~ 1 week of training
 
 
-All of our code is open source(careful it's rough on the edges).  Our training data was custom built using dlib to identify
+All of our code is open source(careful, it's rough on the edges).  Our training data was custom built using dlib to identify
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
 on 40k human female faces.  A network currently converging will have 170k of mixed gender.
 
