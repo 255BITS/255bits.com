@@ -21,7 +21,7 @@ date: 2016-08-30
 
 None of these people are real.  We've created a person generator at 256x256.
 
-We can now render a theoretically infinite number of unique people.
+We can now render a theoretically infinite number of unique people!
 
 
 # More detail
