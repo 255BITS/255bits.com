@@ -34,9 +34,9 @@ we want to be careful where we select from.
 
 Training GANs is notoriously difficult.  In order to train at 256 x 256 we utilize:
 
-* Hyperchamber.io, a service for training networks with hyperparameter search
+* [Hyperchamber.io](/products/hyperchamber.io), a service for training networks with hyperparameter search
 * A custom Discriminator and Generator
-* Joint training of a variational encoder utilizing preproccessed image embeddings
+* Joint training of a variational encoder utilizing preprocessed image embeddings
 * Custom GAN training technique
 * Nvidia Titan X
 * ~ 1 week of training
