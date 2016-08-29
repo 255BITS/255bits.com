@@ -34,7 +34,7 @@ we want to be careful where we select from.
 
 Training GANs is notoriously difficult.  In order to train at 256 x 256 we utilize:
 
-* [Hyperchamber.io](/products/hyperchamber.io), a service for training networks with hyperparameter search
+* [Hyperchamber.io](/products/hyperchamber.io/), a service for training networks with hyperparameter search
 * A custom Discriminator and Generator
 * Joint training of a variational encoder utilizing preprocessed image embeddings
 * Custom GAN training technique
@@ -46,7 +46,7 @@ All of our code is open source(careful it's rough on the edges).  Our training d
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
 on 40k human female faces.  A network currently converging will have 170k of mixed gender.
 
-Want to know more?  Sign up for the hyperchamber.io private alpha here:
+Want to know more?  Sign up for the hyperchamber private alpha here:
 
 # Links
 
@@ -55,11 +55,11 @@ Want to know more?  Sign up for the hyperchamber.io private alpha here:
 
 # Thanks to
 
-* GAN paper
-* DCGAN paper
-* Adversarial inference
-* Ian's paper
-* Tensorflow
+* GAN paper - https://arxiv.org/abs/1406.2661
+* DCGAN paper - https://arxiv.org/abs/1511.06434
+* Adversarial inference - https://arxiv.org/abs/1606.00704
+* Ian's paper - https://arxiv.org/abs/1606.03498
+* Tensorflow - https://www.tensorflow.org/
 
 # Credits
 
