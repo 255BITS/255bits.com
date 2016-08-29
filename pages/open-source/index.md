@@ -1,12 +1,9 @@
 ---
-title: Overview
+title: About
 date: 2016-07-01
 ---
 
-Our open source efforts are focused on two things:
+We care about and support open research and open source efforts.
 
-* Make deep learning more accessible
-* Productization through web apps
-
-
+Our efforts aim to help deep learning accessibility.
 

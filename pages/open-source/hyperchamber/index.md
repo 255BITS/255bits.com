@@ -18,4 +18,4 @@ config = hc.random_config # { 'learning_rate' : 0.1 or 0.2 }
 
 ## Links
 
-* Github
+[https://github.com/255BITS/hyperchamber](https://github.com/255BITS/hyperchamber)
