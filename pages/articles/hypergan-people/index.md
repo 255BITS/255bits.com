@@ -25,10 +25,15 @@ None of these people are real.  We've created a person generator at 256x256.
 
 We can now render a theoretically infinite number of unique people!
 
+Note: This network is still converging.
+
+# What is a GAN?
+
+A GAN is technique involving two neural networks, a generator and a discriminator.  They are trained together but can be used independently.  We are focusing on the generator in these results.  Read the papers below for more detail.
 
 # More detail
 
-Our GAN has learned a mapping
+Our generator has learned a mapping
 of the manifold upon which infinite samples can be extracted(in theory).  In practice, our manifold has a few holes in it so 
 we want to be careful where we select from.
 
