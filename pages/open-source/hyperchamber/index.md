@@ -15,7 +15,6 @@ hc.set('learning_rate', [0.1,0.2])
 config = hc.random_config # { 'learning_rate' : 0.1 or 0.2 }
 ```
 
-Random searching of hyperparameters is the first step to success with machine learning.
 
 ## Links
 
