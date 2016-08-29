@@ -15,6 +15,8 @@ date: 2016-08-30
 <img src='https://hyperchamber.s3.amazonaws.com/samples/images-1472506378264-2031cb8d-e3f0-4d32-b8e6-e097f09f40af'/>
 <img src='https://hyperchamber.s3.amazonaws.com/samples/images-1472506377016-742231fe-499f-42c5-8cd6-79766ec22fd1'/>
 <img src='https://hyperchamber.s3.amazonaws.com/samples/images-1472511235610-83a8b9f9-dc1d-42f4-9028-3bd14112d197'/>
+<img src='https://hyperchamber.s3.amazonaws.com/samples/images-1472512900964-6afd3c20-1a5e-4455-8293-93122701d64d'/>
+<img src='https://hyperchamber.s3.amazonaws.com/samples/images-1472512900148-55076712-0d58-4760-a6de-93e1b356b414'/>
 
 
 # What is this?
@@ -58,7 +60,7 @@ Want to know more?  Sign up for the hyperchamber private alpha here:
 * GAN paper - https://arxiv.org/abs/1406.2661
 * DCGAN paper - https://arxiv.org/abs/1511.06434
 * Adversarial inference - https://arxiv.org/abs/1606.00704
-* Ian's paper - https://arxiv.org/abs/1606.03498
+* Improved GAN - https://arxiv.org/abs/1606.03498
 * Tensorflow - https://www.tensorflow.org/
 
 # Credits
