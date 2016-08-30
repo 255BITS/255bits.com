@@ -53,11 +53,9 @@ All of our code is open source(careful, it's rough on the edges).  Our training 
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
 on 40k human female faces.  A network currently converging will have 170k of mixed gender.
 
-Want to know more?  Sign up for the hyperchamber private alpha here:
-
 # Links
 
-* Hyperchamber - sign up for access
+* Hyperchamber - email me for early access (please title "hyperchamber beta request")
 * [hypergan](/open-source/hypergan/) - The network trainer/runner - very alpha
 
 # Thanks to
