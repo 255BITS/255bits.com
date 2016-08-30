@@ -56,7 +56,8 @@ return React.createClass({
     )
     const docPages = childPages.map((child) => {
       const isActive = prefixLink(child.path) === this.props.location.pathname
-      const isShown = prefixLink(child.path).split("/").length > 3
+      let len =  prefixLink(child.path).split("/").length 
+      const isShown = len >3 && len < 5
 
       return (
         <li
