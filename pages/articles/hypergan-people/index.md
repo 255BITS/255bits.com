@@ -29,7 +29,7 @@ Note: This network is still converging.
 
 # What is a GAN?
 
-A GAN is technique involving two neural networks, a generator and a discriminator.  They are trained together but can be used independently.  We are focusing on the generator in these results.  Read the papers below for more detail.
+A GAN is technique involving two neural networks, a generator and a discriminator.  They are trained together but can be used independently.  We are focusing on the generator in these results.  Links to relevant papers below.
 
 # More detail
 
@@ -51,7 +51,7 @@ Training GANs is notoriously difficult.  In order to train at 256 x 256 we utili
 
 All of our code is open source(careful, it's rough on the edges).  Our training data was custom built using dlib to identify
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
-on 40k human female faces.  A network currently converging will have 170k of mixed gender.
+on 40k human female faces.
 
 # Links
 
