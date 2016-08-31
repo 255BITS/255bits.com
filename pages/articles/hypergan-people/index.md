@@ -49,7 +49,7 @@ Training GANs is notoriously difficult.  In order to train at 256 x 256 we utili
 * ~ 1 week of training
 
 
-All of our code is open source(careful, it's rough on the edges).  Our training data was custom built using dlib to identify
+All of our code is open source(careful, it's rough).  Our training data was custom built using dlib to identify
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
 on 40k human female faces.
 
@@ -57,6 +57,8 @@ on 40k human female faces.
 
 * Hyperchamber - email me for early access (please title "hyperchamber beta request")
 * [hypergan](/open-source/hypergan/) - The network trainer/runner - very alpha
+* The configuration for this network is here: https://hyperchamber.255bits.com/ba3051e944601e2d98b601f3347df0b1/40k_overfit_3:1.2/samples/9602b13bb5669064d636f88b144d9067
+* The dataset was independently created.  If you need it, email me.
 
 # Thanks to
 
