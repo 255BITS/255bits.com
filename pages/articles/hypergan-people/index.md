@@ -68,6 +68,13 @@ on 40k human female faces.
 * Improved GAN - https://arxiv.org/abs/1606.03498
 * Tensorflow - https://www.tensorflow.org/
 
+# Related work
+
+* dcgan-tensorflow - https://github.com/carpedm20/DCGAN-tensorflow
+* openai improved-gan - https://github.com/openai/improved-gan
+* openai infoGAN - https://github.com/openai/InfoGAN
+* VisioFaces - http://www.faculty.idc.ac.il/arik/seminar2009/papers/VisioFaces.pdf
+
 # Credits
 
 Thanks to the Denver Machine Learning group for ideas and discussion.
