@@ -11,4 +11,4 @@ Hyperchamber lets you find the best performing hyperparameters for your network.
 Hyperchamber is in closed **alpha**.
 
 
-Once it exits closed alpha, you can register at https://hyperchamber.255bits.com/register
+Once it exits closed alpha, you can register at https://hyperchamber.255bits.com/signup
