@@ -11,12 +11,12 @@ date: 2016-07-31
 
 
 HyperGAN is an open implementation of many different types of GANs (generative adversarial networks).  
-It is currently in open alpha as it relies on [Hyperchamber](/open-source/hyperchamber).
+It is currently in open alpha as it relies on [Hyperchamber](/open-source/hyperchamber/).
 
 GANs are known for being hard to train.  HyperGAN has three unique features:
 
 * Runs on a directory of images
-* Searches for a good network configuration (using [Hyperchamber](/open-source/hyperchamber))
+* Searches for a good network configuration (using [Hyperchamber](/open-source/hyperchamber/))
 * Has many recent advancements
 
 Each GAN trained will learn different aspects of your data.  Many GANs wont work at all.  Some will converge to a few examples and not establish a meaningful feature space.  There are many many ways for a GAN to fail.
