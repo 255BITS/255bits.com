@@ -14,11 +14,6 @@ Our main focus is machine learning with Python and Tensorflow.
 
 [Open source projects](/open-source/)
 
-## Who are we?
-
-* Martyn - https://www.linkedin.com/in/martyngarcia
-* Mikkel - https://www.linkedin.com/in/mikkelgarcia
-
 ## Get in touch
 
 We offer consulting.  Contact mikkel -at- 255bits.com to find out availability.
