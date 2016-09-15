@@ -3,16 +3,15 @@
 One useful tool of machine learning is generating content.
 
 Given a (relatively) small dataset we can generate an infinite manifold.  This can be
-applied to raw pixels of a trading card game.
+applied to raw pixels of each individual card in a trading card game.  Around 10k cards total, a small dataset.
 
-I believe this can lead to a new type of trading card game.  In which the cards are generated infinitely.
+Firstly, I believe this can lead to a new type of trading card game.  In which the cards are generated infinitely.
 
-Furthermore, it may also be possible to learn and generate game rules.  
+Secondly, it may also be possible to learn and generate game rules.
 
-Additionally, generating infinite new games with infinite game rules
-that are measurably balanced by complex sets of learned rules.
+Lastly, it could be possible to generate infinite new games with infinite game rules that are measurably balanced by complex sets of learned rules.  A trading card game generator.
 
-A trading card game generator.
+We'll focus this article on generating cards from raw pixel values.
 
 ## Generating infinitely unique cards
 
@@ -43,7 +42,10 @@ would be to train a different classifier that is just handwriting recognition.  
 
 Additional experiments include:
 
-* Using adversarial inference on the card text.  This would be neat, as you could then do things like generating a new card by it's effect.
+* Use adversarial inference on the card text.  This would be neat, as you could then do things like generating a new card by it's effect.
+* Use categorical or discrete values.  This could allow for disjoint parts of our manifold(in which continuous transitions are difficult).
+* One-hot encode the character vectors.
+* Force the Generator to also encode one-hot character vectors.  Use OCR to see if the text matches.
 
 ## Learning to draw
 
