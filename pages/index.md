@@ -8,7 +8,9 @@ We work with a large variety of technology, but specialize towards full stack we
 
 We have production apps written in Node and scaled with Docker.
 
-Our main focus is machine learning with Python and Tensorflow.  
+## Machine Learning
+
+Our main focus is machine learning(DNNs) with Python and Tensorflow.  We can build classifiers, discriminators, inference, generators, and more.
 
 ## Open Source
 
