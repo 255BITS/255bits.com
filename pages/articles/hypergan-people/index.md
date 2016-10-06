@@ -29,7 +29,7 @@ Note: This network is still converging.
 
 # What is a GAN?
 
-A GAN is technique involving two neural networks, a generator and a discriminator.  They are trained together but can be used independently.  We are focusing on the generator in these results.  Links to relevant papers below.
+A GAN is technique involving two neural networks, a generator and a discriminator.  They are trained together but can be used independently.  We are focusing on the generator in these results.  Read the papers below for more detail.
 
 # More detail
 
@@ -51,14 +51,14 @@ Training GANs is notoriously difficult.  In order to train at 256 x 256 we utili
 
 All of our code is open source(careful, it's rough).  Our training data was custom built using dlib to identify
 facial landscape points, then rotate and crop at a certain width/height.  In total, this network was trained
-on 40k human female faces.
+on 40k human female faces.  A network currently converging will have 170k of mixed gender.
 
 # Links
 
 * Hyperchamber - email me for early access (please title "hyperchamber beta request")
 * [hypergan](/open-source/hypergan/) - The network trainer/runner - very alpha
 * The configuration for this network is here: https://hyperchamber.255bits.com/ba3051e944601e2d98b601f3347df0b1/40k_overfit_3:1.2/samples/9602b13bb5669064d636f88b144d9067
-* The dataset was independently created.  If you need it, email me.
+* The dataset was independently created.  If you need ne, email me.
 
 # Thanks to
 
