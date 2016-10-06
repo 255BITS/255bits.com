@@ -1,0 +1,15 @@
+www255bitscom:
+  image: 'mikkel/www255bitscom:1.0'
+  autoredeploy: true
+  environment:
+    - VIRTUAL_HOST=https://www.255bits.com
+    - VIRTUAL_HOST_WEIGHT=1
+
+  ports:
+    - '80'
+  restart: always
+  roles:
+    - global
+  sequential_deployment: true
+  deployment_strategy: every_node
+
