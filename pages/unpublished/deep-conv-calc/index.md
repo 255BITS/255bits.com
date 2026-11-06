@@ -57,7 +57,6 @@ DCNN design is still an emerging field.  What works best is still largely unknow
 
 <a name="conv_arithmetic"></a>Convolutional arithmetic:
 
- * https://github.com/vdumoulin/conv_arithmetic 
  * https://arxiv.org/abs/1603.07285
 
  <a name="deep_cnn_feature_evaluation"></a>Feature Evaluation of Deep Convolutional Neural Networks for Object Recognition and Detection

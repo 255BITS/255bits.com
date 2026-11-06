@@ -21,5 +21,5 @@ GANs are known for being hard to train.  HyperGAN has three unique features:
 
 Each GAN trained will learn different aspects of your data.  Many GANs wont work at all.  Some will converge to a few examples and not establish a meaningful feature space.  There are many many ways for a GAN to fail.
 
-[HyperGAN on github](https://github.com/255BITS/HyperGAN)
+[HyperGAN on github](https://github.com/HyperGAN/HyperGAN)
 

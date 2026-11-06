@@ -71,8 +71,8 @@ on 40k human female faces.  A network currently converging will have 170k of mix
 # Related work
 
 * dcgan-tensorflow - https://github.com/carpedm20/DCGAN-tensorflow
-* openai improved-gan - https://github.com/openai/improved-gan
-* openai infoGAN - https://github.com/openai/InfoGAN
+* OpenAI Improved GAN
+* OpenAI InfoGAN
 * VisioFaces - http://www.faculty.idc.ac.il/arik/seminar2009/papers/VisioFaces.pdf
 
 # Credits
